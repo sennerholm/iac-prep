@@ -16,7 +16,7 @@ På en dator som kör 64 bitars os och du är admin på.
 git clone https://github.com/sennerholm/iac-prep.git
 cd iac-prep
 vagrant up
-vagrant ssh default
+vagrant ssh ubuntu
 ```
 ## Problem
 Fila en issue
