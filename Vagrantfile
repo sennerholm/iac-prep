@@ -11,8 +11,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     cfg.vm.hostname = "ubuntu"
   end
   config.vm.define :docker do |cfg|
-    cfg.vm.box = "sennerholm/boot2docker"
-    cfg.vm.box_url = "https://dl.dropboxusercontent.com/u/6816236/boot2docker_virtualbox.box"
+    cfg.vm.box = "sennerholm/boot2docker1_6"
+    cfg.vm.box_url = "https://dl.dropboxusercontent.com/u/6816236/boot2docker_virtualbox1.6.0.box"
     cfg.vm.synced_folder "docker", "/docker"
   end
 end
